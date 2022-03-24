@@ -1,3 +1,5 @@
+/* <-- elementos HTML --> */
+
 *{
     box-sizing: border-box;
   
@@ -15,6 +17,21 @@ html, body{
     margin: 0;
 }
 
+footer{
+    background: var(--azul-marinho);
+    height: 120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/*fim elementos */
+
+/* <-- INICIO CLASSES    --> */
+
 /* <-- inicio aba de navegacao --> */
 
 .nav-container{
@@ -22,6 +39,7 @@ html, body{
     height: 100px;
     width: 100%;
     padding: 20px;
+    position: fixed; /* vai deixar o header fixo na pagina toda */
 }
 
 .nav-main{
@@ -72,7 +90,7 @@ html, body{
     flex-direction: column;
     align-items: center;
 
-    padding: 60px 0;
+    padding: 160px 0 60px 0;
 }
 
 .profile-img img{
@@ -90,3 +108,54 @@ html, body{
 }
 
 /* <-- fim da primeira sessao --> */
+
+/* <-- fim da segunda sessao --> */
+
+#portifolio{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.portifolio-title{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--azul-marinho);
+
+    margin: 60px 0 10px 0;
+}
+
+.portifolio-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.portifolio-itens{
+    width: calc(100% - 40px);
+    max-width: 420px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+/* <-- fim da segunda sessao --> */
+
+/* <-- inicio rodapé --> */
+
+.footer-title{
+    color: var(--branco);
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.footer-social img{
+    width: 32px;
+    height: 32px;
+    margin: 10px;
+}
+
+/* <-- fim rodapé --> */
+
