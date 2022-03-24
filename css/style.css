@@ -3,14 +3,22 @@
   
 }
 
+:root{
+    --azul-marinho: #2C3E50;
+    --azul-celeste: #1ABC9C;
+    --branco: #fff;
+}
+
 html, body{
     font-family: "Montserrat", sans-serif;
     padding: 0;
     margin: 0;
 }
 
+/* <-- inicio aba de navegacao --> */
+
 .nav-container{
-    background: #1ABC9C;
+    background: var(--azul-marinho);
     height: 100px;
     width: 100%;
     padding: 20px;
@@ -24,12 +32,11 @@ html, body{
     flex-direction: column;
     align-items: center;
 
-    background: red;
     
 }
 
 .nav-main a{
-    color: #fff;
+    color: var(--branco);
     text-transform: uppercase; /* Deixa tudo maiusculo */
     text-decoration: none;
 }
@@ -53,3 +60,33 @@ html, body{
     font-weight: 700;
     margin-bottom: 5px;
 }
+
+/* <-- fim da aba navegacao --> */
+
+/* <-- inicio primeira sessao --> */
+
+.profile-container{
+    background-color: var(--azul-celeste);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 60px 0;
+}
+
+.profile-img img{
+    width: 150px;
+}
+
+.profile-title{
+    margin: 35px 0 0 0;
+    font-size: 2rem;
+}
+
+.profile-description{
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* <-- fim da primeira sessao --> */
