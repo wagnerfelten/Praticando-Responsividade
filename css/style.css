@@ -159,3 +159,40 @@ footer{
 
 /* <-- fim rodapé --> */
 
+/* inicio da responsavidade */
+
+@media(min-width: 576px){
+    
+    html{
+        font-size: 20px;
+    }
+}
+
+
+@media(min-width: 768px){
+    
+    html{
+        font-size: 20px;
+    }
+    .portifolio-itens{
+        width: 280px;
+    }
+
+    .nav-container{
+        display: flex;
+    }
+
+    .nav-main{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .nav-brand{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .menu-itens li{
+        font-size: 18px;
+    }
+}
