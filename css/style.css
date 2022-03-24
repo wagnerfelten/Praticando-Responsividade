@@ -19,7 +19,8 @@ html, body{
 
 footer{
     background: var(--azul-marinho);
-    height: 120px;
+    height: 130px;
+
 
     display: flex;
     flex-direction: column;
@@ -148,7 +149,7 @@ footer{
 .footer-title{
     color: var(--branco);
     font-size: 14px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .footer-social img{
